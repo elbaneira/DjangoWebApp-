@@ -123,7 +123,7 @@ http://127.0.0.1:8000/
 
 La aplicación cuenta con un panel principal desde el cual es posible visualizar los proyectos, sus tareas y el estado de avance de cada una.
 
-![Panel principal](docs/img/pantalla%20-principal.png)
+![Panel principal](docs/img/pantalla-principal.png)
 
 📋 Listado o gestión de proyectos 
 
