@@ -124,15 +124,17 @@ http://127.0.0.1:8000/
 La aplicación cuenta con un panel principal desde el cual es posible visualizar los proyectos, sus tareas y el estado de avance de cada una.
 
 
-<p align="center">
-  <img src="docs/img/Panel principal.jpg" alt="pantalla-principal" width="700"><br><br>
-  <img src="docs/img/admin-usuarios.jpg" alt="Usuarios Admin" width="700"><br><br>
-  <img src="docs/img/admin-crear-usuario.jpg" alt="Crear Usuario Admin" width="700"><br><br>
-  <img src="docs/img/admin-dashboard.jpg" alt="Dashboard Admin" width="700"><br><br>
-  <img src="docs/img/tarea-crear.jpg" alt="Crear Tarea" width="700"><br><br>
-  <img src="docs/img/tarea-editar.jpg" alt="Editar Tarea" width="700">
-</p>
+  
+![Panel principal](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/pantalla-principal.jpg)
+![Usuarios Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-usuarios.jpg)
 
+![Crear Usuario Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-crear-usuario.jpg)
+
+![Dashboard Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-dashboard.jpg)
+
+![Crear Tarea](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/tarea-crear.jpg)
+
+![Editar Tarea](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/tarea-editar.jpg)
 📋 Listado o gestión de proyectos 
 
 ➕ Formulario para crear/agregar información 
