@@ -125,8 +125,8 @@ La aplicación cuenta con un panel principal desde el cual es posible visualizar
 
 ![Panel principal](docs/img/pantalla-principal.jpg)
 ![Usuarios en Admin](docs/img/admin-usuarios.jpg)
-![Crear Usuario Admin](docs/img/admin-crear-usuario.jpg)
-![Panel de Administración](docs/img/admin-dashboard.jpg)
+![Crear Usuario](docs/img/admin-crear-usuario.jpg)
+![Panel Admin](docs/img/admin-dashboard.jpg)
 ![Crear Tarea](docs/img/tarea-crear.jpg)
 ![Editar Tarea](docs/img/tarea-editar.jpg)
 
