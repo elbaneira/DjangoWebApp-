@@ -123,16 +123,18 @@ http://127.0.0.1:8000/
 
 La aplicación cuenta con un panel principal desde el cual es posible visualizar los proyectos, sus tareas y el estado de avance de cada una.
 
+![Pantalla Principal](docs/img/Pantalla-principal.jpg)
 
-  
-![Panel principal](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/pantalla-principal.jpg)
-![Usuarios Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-usuarios.jpg)
+![Usuarios Admin](docs/img/admin-usuarios.jpg)
 
-![Crear Usuario Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-crear-usuario.jpg)
+![Crear Usuario Admin](docs/img/admin-crear-usuario.jpg)
 
-![Dashboard Admin](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/admin-dashboard.jpg)
+![Dashboard Admin](docs/img/admin-dashboard.jpg)
 
-![Crear Tarea](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/tarea-crear.jpg)
+![Crear Tarea](docs/img/tarea-crear.jpg)
+
+![Editar Tarea](docs/img/tarea-editar.jpg)
+
 
 ![Editar Tarea](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/tarea-editar.jpg)
 📋 Listado o gestión de proyectos 
