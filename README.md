@@ -54,6 +54,18 @@ Respuesta al usuario
 
 Este flujo me permitió conectar conocimientos que ya había adquirido previamente en Python con el desarrollo de aplicaciones web.
 
+## 📽️ Presentación en Video
+
+* **Duración:** ~3 minutos aprox.
+* **Contenido:** Explicación del diagrama UML, pilares de POO (Encapsulamiento, Herencia, Polimorfismo, Composición), ejecución del CRUD y exportación a JSON/CSV.
+
+## 📽️ Presentación en Video
+
+* **Duración:** ~3 minutos aprox.
+* **Contenido:**.....
+![Ver Video en YouTube] http....
+
+---
 🛠️ Tecnologías utilizadas
 | Tecnología           |  Uso                                |
 | ----------------------- | -------------------------------- |
@@ -192,3 +204,5 @@ Proyecto desarrollado como parte de mi proceso de formación en programación, d
 📌 Ver repositorio en GitHub
 
 ⭐ Un proyecto más en el camino de convertir el aprendizaje en proyectos reales.
+
+© 2026 Elba Neira Arévalo
