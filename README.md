@@ -68,7 +68,9 @@ Este flujo me permitió conectar conocimientos que ya había adquirido previamen
 | 💻 **Visual Studio Code** | Entorno de desarrollo          |
 
 ---
-📂 Estructura del proyecto
+## 📁 Estructura del proyecto
+
+```text
 DjangoWebApp-/
 │
 ├── aplicacion_gestion/
@@ -90,6 +92,7 @@ DjangoWebApp-/
 ├── db.sqlite3
 ├── manage.py
 └── README.md
+```
 ---
 
 ⚙️ Instalación y ejecución
