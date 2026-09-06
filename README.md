@@ -135,8 +135,6 @@ La aplicación cuenta con un panel principal desde el cual es posible visualizar
 
 ![Editar Tarea](docs/img/tarea-editar.jpg)
 
-
-![Editar Tarea](https://raw.githubusercontent.com/elbaneira/DjangoWebApp-/main/docs/img/tarea-editar.jpg)
 📋 Listado o gestión de proyectos 
 
 ➕ Formulario para crear/agregar información 
