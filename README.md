@@ -51,19 +51,9 @@ Plantilla HTML
    │
    ▼
 Respuesta al usuario
+```
 
 Este flujo me permitió conectar conocimientos que ya había adquirido previamente en Python con el desarrollo de aplicaciones web.
-
-## 📽️ Presentación en Video
-
-* **Duración:** ~3 minutos aprox.
-* **Contenido:** Explicación del diagrama UML, pilares de POO (Encapsulamiento, Herencia, Polimorfismo, Composición), ejecución del CRUD y exportación a JSON/CSV.
-
-## 📽️ Presentación en Video
-
-* **Duración:** ~3 minutos aprox.
-* **Contenido:**.....
-![Ver Video en YouTube] http....
 
 ---
 🛠️ Tecnologías utilizadas
@@ -107,7 +97,7 @@ DjangoWebApp-/
 git clone https://github.com/elbaneira/DjangoWebApp-.git
 
 2. Ingresar al proyecto
-cd DjangoWebApp-
+cd proyecto_gestion
 
 3. Crear un entorno virtual
 python -m venv venv
@@ -136,17 +126,31 @@ http://127.0.0.1:8000/
 La aplicación cuenta con un panel principal desde el cual es posible visualizar
  los proyectos, sus tareas y el estado de avance de cada una.
 
+---
+
+## 📸 Vista previa
+
+### 🏠 Panel principal
+
 ![Pantalla Principal](docs/img/pantalla-principal.jpg)
 
-![Usuarios Admin](docs/img/admin-usuarios.jpg)
+### 👤 Gestión de usuarios
 
-![Crear Usuario Admin](docs/img/admin-crear-usuario.jpg)
+![Administración de usuarios](docs/img/admin-usuarios.jpg)
 
-![Dashboard Admin](docs/img/admin-dashboard.jpg)
+### ➕ Crear usuario
 
-![Crear Tarea](docs/img/tarea-crear.jpg)
+![Crear usuario](docs/img/admin-crear-usuario.jpg)
 
-![Editar Tarea](docs/img/tarea-editar.jpg)
+### 📋 Gestión de tareas
+
+![Crear tarea](docs/img/tarea-crear.jpg)
+
+### ✏️ Editar tarea
+
+![Editar tarea](docs/img/tarea-editar.jpg)
+
+---
 
 📋 Listado o gestión de proyectos 
 
