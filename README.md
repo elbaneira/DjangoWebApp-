@@ -124,6 +124,11 @@ http://127.0.0.1:8000/
 La aplicación cuenta con un panel principal desde el cual es posible visualizar los proyectos, sus tareas y el estado de avance de cada una.
 
 ![Panel principal](docs/img/pantalla-principal.jpg)
+![Usuarios en Admin](docs/img/admin-usuarios.png)
+![Crear Usuario Admin](docs/img/admin-crear-usuario.png)
+![Panel de Administración](docs/img/admin-dashboard.png)
+![Crear Tarea](docs/img/tarea-crear.png)
+![Editar Tarea](docs/img/tarea-editar.png)
 
 📋 Listado o gestión de proyectos 
 
