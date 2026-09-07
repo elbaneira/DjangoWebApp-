@@ -122,16 +122,10 @@ Luego acceder desde el navegador:
 http://127.0.0.1:8000/
 
 ---
-📸 Vista previa 
-🏠 Página principal 
-### Panel principal
+## 📸 Vista previa
 
 La aplicación cuenta con un panel principal desde el cual es posible visualizar
  los proyectos, sus tareas y el estado de avance de cada una.
-
----
-
-## 📸 Vista previa
 
 ### 🏠 Panel principal
 
