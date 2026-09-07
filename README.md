@@ -56,6 +56,7 @@ Respuesta al usuario
 Este flujo me permitió conectar conocimientos que ya había adquirido previamente en Python con el desarrollo de aplicaciones web.
 
 ---
+
 🛠️ Tecnologías utilizadas
 | Tecnología           |  Uso                                |
 | ----------------------- | -------------------------------- |
@@ -95,33 +96,13 @@ DjangoWebApp-/
 ```
 ---
 
-⚙️ Instalación y ejecución
-1. Clonar el repositorio
-git clone https://github.com/elbaneira/DjangoWebApp-.git
+## 📹 Demostración en Video
+Puedes ver la demostración completa del funcionamiento y arquitectura del proyecto en el siguiente enlace:
 
-2. Ingresar al proyecto
-cd proyecto_gestion
-
-3. Crear un entorno virtual
-python -m venv venv
-
-4. Activar el entorno virtual
-En Windows:
-venv\Scripts\activate
-
-5. Instalar Django
-pip install django
-
-6. Ejecutar las migraciones
-python manage.py migrate
-
-7. Iniciar el servidor
-python manage.py runserver
-
-Luego acceder desde el navegador:
-http://127.0.0.1:8000/
+👉[![Ver Demostración en Video](https://img.youtube.com/vi/y0VXxNCjSyU/hqdefault.jpg)](https://www.youtube.com/watch?v=y0VXxNCjSyU)
 
 ---
+
 ## 📸 Vista previa
 
 La aplicación cuenta con un panel principal desde el cual es posible visualizar
@@ -149,13 +130,34 @@ La aplicación cuenta con un panel principal desde el cual es posible visualizar
 
 ---
 
-📋 Listado o gestión de proyectos 
+⚙️ Instalación y ejecución
+1. Clonar el repositorio
+git clone https://github.com/elbaneira/DjangoWebApp-.git
 
-➕ Formulario para crear/agregar información 
+2. Ingresar al proyecto
+cd proyecto_gestion
 
-🔎 Alguna vista importante de la aplicación 
+3. Crear un entorno virtual
+python -m venv venv
+
+4. Activar el entorno virtual
+En Windows:
+venv\Scripts\activate
+
+5. Instalar Django
+pip install django
+
+6. Ejecutar las migraciones
+python manage.py migrate
+
+7. Iniciar el servidor
+python manage.py runserver
+
+Luego acceder desde el navegador:
+http://127.0.0.1:8000/
 
 ---
+
 🎯 Objetivos de aprendizaje
 
 Con este proyecto busqué:
@@ -171,6 +173,7 @@ Introducirme en el trabajo con bases de datos dentro de Django.
 Utilizar Git y GitHub como parte del flujo de desarrollo.
 
 ---
+
 💡 Lo que sigue
 
 Este proyecto es parte de un proceso de aprendizaje continuo.
@@ -187,6 +190,7 @@ Los siguientes pasos están orientados a profundizar en:
 📚 Reflexión
 
 ---
+
 Aprender Django significó dar un paso desde programas ejecutados directamente en Python hacia aplicaciones que interactúan con usuarios y gestionan información.
 
 Este proyecto me ayudó especialmente a comprender que aprender un framework no consiste solamente en memorizar comandos, sino en entender cómo se relacionan sus diferentes componentes.
