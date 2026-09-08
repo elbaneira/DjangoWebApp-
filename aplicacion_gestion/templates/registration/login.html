@@ -1,7 +1,83 @@
-<h2>Iniciar Sesión</h2>
+<style>
+  body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-<form method="post">
+  .login-card {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 35px 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e1e8ed;
+  }
+
+  .login-card h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  /* Estiliza los párrafos e inputs que genera {{ form.as_p }} */
+  .login-card form p {
+    margin-bottom: 18px;
+  }
+
+  .login-card form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.95rem;
+  }
+
+  .login-card form input[type="text"],
+  .login-card form input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  }
+
+  .login-card form input:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+    outline: none;
+  }
+
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+  }
+
+  .btn-submit:hover {
+    background-color: #2b6cb0;
+  }
+</style>
+
+<div class="login-card">
+  <h2>Iniciar Sesión</h2>
+
+  <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">Ingresar</button>
-</form>
+    <button type="submit" class="btn-submit">Ingresar</button>
+  </form>
+</div>
+

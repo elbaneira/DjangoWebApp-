@@ -158,6 +158,19 @@ http://127.0.0.1:8000/
 
 ---
 
+## 🧪 Pruebas Unitarias
+
+```text
+
+El proyecto cuenta con pruebas unitarias para verificar la disponibilidad de las rutas principales e integridad del sistema.
+
+Para ejecutar las pruebas en el entorno local:
+
+```bash
+python manage.py test
+
+---
+
 🎯 Objetivos de aprendizaje
 
 Con este proyecto busqué:
