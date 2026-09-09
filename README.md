@@ -158,6 +158,18 @@ http://127.0.0.1:8000/
 
 ---
 
+## 🔐 Credenciales de Prueba
+```text
+Para revisar el funcionamiento del sistema y las pruebas de acceso, se pueden utilizar los siguientes usuarios creados en la base de datos:
+
+| Usuario    |    Contraseña   | Rol |
+| :---       |            :--- | :--- |
+| `usuario1` | `proyectoDjango`| Usuario Estándar |
+| `usuario2` | `proyecto6`     | Usuario Estándar |
+| `admin` | `1234`             | Administrador (Django Admin) |
+
+```
+---
 ## 🧪 Pruebas Unitarias
 
 ```text
@@ -166,8 +178,9 @@ El proyecto cuenta con pruebas unitarias para verificar la disponibilidad de las
 
 Para ejecutar las pruebas en el entorno local:
 
-```
+```bash
 python manage.py test
+
 ---
 
 🎯 Objetivos de aprendizaje
@@ -208,14 +221,12 @@ Aprender Django significó dar un paso desde programas ejecutados directamente e
 Este proyecto me ayudó especialmente a comprender que aprender un framework no consiste solamente en memorizar comandos, sino en entender cómo se relacionan sus diferentes componentes.
 
 ---
-
 Cada proyecto es una nueva oportunidad para transformar lo aprendido en algo propio.
 
 ---
 
 👩‍💻 Autora
 Elba Neira
-
 ---
 
 Proyecto desarrollado como parte de mi proceso de formación en programación, desarrollo web y análisis de datos.
