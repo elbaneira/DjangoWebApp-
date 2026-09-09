@@ -181,7 +181,8 @@ python manage.py test
 
 🧪 Pruebas Unitarias
 
-![Pruebas Unitarias](pruebas_unitarias.jpg)
+![Pruebas Unitarias](docs/img/pruebas_unitarias.jpg)
+
 ---
 
 🎯 Objetivos de aprendizaje
