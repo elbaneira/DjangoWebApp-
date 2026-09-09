@@ -181,7 +181,7 @@ python manage.py test
  ``` 
 🧪 Pruebas Unitarias
 
-![Pruebas Unitarias](docs/img/pruebas_unitarias.jpg)
+<img src="docs/img/pruebas_unitarias.jpg" alt="Pruebas Unitarias" width="400">
 
 ---
 
