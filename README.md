@@ -178,7 +178,7 @@ Para ejecutar las pruebas en el entorno local:
 
 ```bash
 python manage.py test
-
+ ``` 
 🧪 Pruebas Unitarias
 
 ![Pruebas Unitarias](docs/img/pruebas_unitarias.jpg)
