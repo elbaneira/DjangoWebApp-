@@ -163,16 +163,14 @@ http://127.0.0.1:8000/
 Para revisar el funcionamiento del sistema y las pruebas de acceso, se pueden utilizar los siguientes usuarios creados en la base de datos:
 
 | Usuario    |    Contraseña   | Rol |
-| :---       |            :--- | :--- |
+| :---       |     :---        | :--- |
 | `usuario1` | `proyectoDjango`| Usuario Estándar |
 | `usuario2` | `proyecto6`     | Usuario Estándar |
-| `admin` | `1234`             | Administrador (Django Admin) |
+| `admin`    | `1234`          | Administrador (Django Admin) |
 
 ```
 ---
 ## 🧪 Pruebas Unitarias
-
-```text
 
 El proyecto cuenta con pruebas unitarias para verificar la disponibilidad de las rutas principales e integridad del sistema.
 
@@ -181,6 +179,9 @@ Para ejecutar las pruebas en el entorno local:
 ```bash
 python manage.py test
 
+🧪 Pruebas Unitarias
+
+![Pruebas Unitarias](pruebas_unitarias.png)
 ---
 
 🎯 Objetivos de aprendizaje

@@ -19,25 +19,29 @@
                     <p class="card-text text-muted">{{ proyecto.descripcion|default:"Sin descripción." }}</p>
                     <hr>
                     <h6 class="fw-bold text-dark mb-3">Tareas:</h6>
-                   <ul class="list-group list-group-flush">
-{% for tarea in proyecto.tareas.all %}
-    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-        <div>
-            <span>{{ tarea.titulo }}</span>
-            <span class="badge 
-                {% if tarea.estado == 'COMPLETADA' %}bg-success
-                {% elif tarea.estado == 'EN_PROCESO' %}bg-warning text-dark
-                {% else %}bg-secondary{% endif %}">
-                {{ tarea.get_estado_display }}
-            </span>
-        </div>
-        <!-- Botón para cambiar estado / editar -->
-        <a href="{% url 'editar_tarea' tarea.id %}" class="btn btn-outline-primary btn-sm">Editar</a>
-    </li>
-{% empty %}
-    <li class="list-group-item text-muted px-0 italic">No hay tareas registradas.</li>
-{% endfor %}
-</ul>
+                    
+                    <ul class="list-group list-group-flush">
+                    {% for tarea in proyecto.tareas.all %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            <div>
+                                <span>{{ tarea.titulo }}</span>
+                                <span class="badge 
+                                    {% if tarea.estado == 'COMPLETADA' %}bg-success
+                                    {% elif tarea.estado == 'EN_PROCESO' %}bg-warning text-dark
+                                    {% else %}bg-secondary{% endif %}">
+                                    {{ tarea.get_estado_display }}
+                                </span>
+                            </div>
+                            <!-- Botones dentro del ciclo de la tarea -->
+                            <div class="btn-group" role="group">
+                                <a href="{% url 'editar_tarea' tarea.id %}" class="btn btn-outline-primary btn-sm">Editar</a>
+                                <a href="{% url 'eliminar_tarea' tarea.id %}" class="btn btn-outline-danger btn-sm">Eliminar</a>
+                            </div>
+                        </li>
+                    {% empty %}
+                        <li class="list-group-item text-muted px-0 italic">No hay tareas registradas.</li>
+                    {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>

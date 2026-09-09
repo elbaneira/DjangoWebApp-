@@ -1,9 +1,10 @@
 from django.shortcuts import get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, UpdateView  # <-- Agregar UpdateView
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Proyecto, Tarea
 from .forms import ProyectoForm, TareaForm
+
  
 
 class HomeView(LoginRequiredMixin, ListView):
@@ -45,4 +46,12 @@ class TareaUpdateView(LoginRequiredMixin, UpdateView):
 
     def get_queryset(self):
         # Asegura que el usuario solo pueda editar tareas de sus propios proyectos
+        return Tarea.objects.filter(proyecto__usuario=self.request.user)
+
+class TareaDeleteView(LoginRequiredMixin, DeleteView):
+     model = Tarea
+     template_name = 'aplicacion_gestion/tarea_confirm_delete.html'
+     success_url = reverse_lazy('home')
+
+     def get_queryset(self):
         return Tarea.objects.filter(proyecto__usuario=self.request.user)
